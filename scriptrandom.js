@@ -1,2 +1,5 @@
 console.log(document.querySelectorAll("footer"));
-document.querySelector("footer")?.remove();
+
+window.addEventListener('load', function () {
+  document.querySelector("footer")?.remove();
+})

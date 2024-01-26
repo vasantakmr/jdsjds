@@ -1,2 +1,2 @@
 console.log(document.querySelectorAll("footer"));
-document.querySelectorAll("footer")[0].firstChild.remove();
+document.querySelector("footer").children[0]?.remove();
